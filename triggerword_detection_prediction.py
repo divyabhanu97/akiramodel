@@ -6,8 +6,6 @@ import io
 import os
 import glob
 import IPython
-from td_utils import *
-%matplotlib inline
 
 Tx = 5998 # The number of time steps input to the model from the spectrogram
 n_freq = 101 # Number of frequencies input to the model at each time step of the spectrogram
